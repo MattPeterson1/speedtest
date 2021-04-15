@@ -31,3 +31,5 @@ cp -v -R backend fastsaas-singleServer-pretty.html *.js /var/www/html/
 mv -v /var/www/html/fastsaas-singleServer-pretty.html /var/www/html/index.html
 chown -v -R www-data /var/www/html/*
 
+#start apache2
+sudo service apache2 start
